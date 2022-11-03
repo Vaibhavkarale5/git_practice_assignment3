@@ -9,6 +9,4 @@ function checkPrime(num){
 
 	fact==2 ? console.log("Prime Number") : console.log("Not a Prime Number");
 
-}
-
 checkPrime(29);
