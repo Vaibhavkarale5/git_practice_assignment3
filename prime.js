@@ -2,17 +2,17 @@
 function checkPrime(){
 
 
-let count = 0
+   let count = 0
 for(let i=0;i<num.length;i++){
 if(num%i==0){
 count++;
 }
 }
 
-if(count==2){
-console.log("Prime Number")
+    if(count==2){
+console.log("Its Prime Number")
 }else{
-console.log("Not a prime")
+console.log("Its Not a prime")
 }
 
 }
